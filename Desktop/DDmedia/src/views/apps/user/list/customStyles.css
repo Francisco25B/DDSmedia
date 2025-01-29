@@ -1,0 +1,62 @@
+/* Estilo general de los títulos */
+.swal-input-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+    display: block;
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+/* Estilo de los inputs */
+.swal2-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Foco en los inputs */
+.swal2-input:focus {
+    outline: none;
+    border: 2px solid #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilos para los selectores */
+.swal2-input-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Espaciado entre elementos */
+.swal-input-group {
+    margin-bottom: 16px;
+}
+
+/* Alineación de los botones de acción (Editar Usuario y Cancelar) */
+.swal2-actions {
+    margin-top: 16px; /* Añadir espacio superior entre los botones */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px; /* Separa más los botones */
+}
+
+/* Aumentar el espacio entre los botones */
+.swal2-confirm, .swal2-cancel {
+    padding: 10px 20px;
+    font-size: 14px;
+}

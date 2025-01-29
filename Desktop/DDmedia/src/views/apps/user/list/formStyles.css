@@ -1,0 +1,35 @@
+/* Alineación del campo de contraseña y el botón "ver contraseña" */
+.input-group {
+    display: flex;
+    align-items: center;  /* Alinea los elementos verticalmente */
+    width: 100%;  /* Asegura que el contenedor ocupe todo el ancho disponible */
+    border: none;  /* Elimina el borde del grupo de entrada */
+  }
+  
+  .input-group input {
+    height: 2.5rem;  /* Ajusta la altura del campo de entrada */
+    padding: 0.5rem 1rem;  /* Ajuste de padding */
+    flex-grow: 1;  /* Hace que el campo de entrada ocupe el espacio disponible */
+    border-radius: 8px 0 0 8px;  /* Redondea solo las esquinas izquierdas */
+    border: 1px solid #ccc;  /* Borde normal del input */
+    box-shadow: none;  /* Elimina cualquier sombra extra en el campo de entrada */
+  }
+  
+  .input-group .btn {
+    height: 2.5rem;  /* Asegura que el botón tenga la misma altura que el campo de entrada */
+    padding: 0.5rem;  /* Ajuste de padding para el botón */
+    border-radius: 0 8px 8px 0;  /* Redondea solo las esquinas derechas */
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* Asegura que el icono esté centrado vertical y horizontalmente */
+    border: 1px solid #ccc;  /* Mismo borde que el input */
+    border-left: none;  /* Elimina el borde izquierdo del botón para pegarlo con el input */
+    background-color: #fff;  /* Fondo blanco para el botón */
+    box-shadow: none;  /* Elimina cualquier sombra extra en el botón */
+  }
+  
+  .input-group .input-group-append {
+    display: flex;
+    align-items: center;  /* Alinea el botón con el campo de texto */
+  }
+  
